@@ -1,38 +1,40 @@
-# AI Health Symptom Checker
+#  AI Health Symptom Checker
 
 An interactive AI-powered healthcare assistant built using Python, Machine Learning, and Streamlit.
 
 This application predicts possible diseases based on user-selected symptoms and provides:
-- disease descriptions
-- precaution recommendations
-- confidence analysis
-- interactive medical dashboard UI
+
+- Disease descriptions
+- Precaution recommendations
+- Confidence analysis
+- Interactive medical dashboard UI
 
 ---
 
-# Features
+#  Features
 
-## Disease Prediction
+##  Disease Prediction
 Predicts possible diseases using a trained Machine Learning model.
 
-## Symptom-Based Analysis
+##  Symptom-Based Analysis
 Users can select multiple symptoms from an interactive sidebar.
 
-## Disease Description
+##  Disease Description
 Displays medical information related to the predicted disease.
 
-## Precaution Suggestions
+##  Precaution Suggestions
 Provides basic health precautions and safety recommendations.
 
-## Confidence Visualization
+##  Confidence Visualization
 Shows top disease probabilities using interactive charts.
 
-## Modern Interactive UI
+##  Modern Interactive UI
 Built with Streamlit using:
-- tabs layout
-- animated loading
-- responsive dashboard
-- card-style interface
+
+- Tabs layout
+- Animated loading
+- Responsive dashboard
+- Card-style interface
 
 ---
 
@@ -67,22 +69,28 @@ AI-Health-Assistant/
 ├── description.py
 ├── precaution.py
 └── README.md
-
-# Machine Learning Workflow
-
-## Dataset
-The model was trained using a symptom-disease dataset where:
-- symptoms are input features
-- disease is the target label
+```
 
 ---
 
-## Model Used
+# ⚙️ Machine Learning Workflow
+
+##  Dataset
+The model was trained using a symptom-disease dataset where:
+
+- Symptoms are input features
+- Disease is the target label
+
+---
+
+##  Model Used
+
 - Random Forest Classifier
 
 ---
 
 ## Training Steps
+
 1. Data cleaning
 2. Symptom encoding
 3. Train-test split
@@ -91,7 +99,7 @@ The model was trained using a symptom-disease dataset where:
 
 ---
 
-# Preprocessing Files
+#  Preprocessing Files
 
 ## `prepare_description.py`
 Processes disease descriptions into a fast dictionary lookup system.
@@ -101,23 +109,38 @@ Processes precaution data and stores it in serialized format.
 
 ---
 
-# User Interface
+#  User Interface
 
 The UI includes:
-- sidebar symptom selection
-- modern card layout
-- tab-based navigation
-- prediction confidence chart
-- smooth loading animation
+
+- Sidebar symptom selection
+- Modern card layout
+- Tab-based navigation
+- Prediction confidence chart
+- Smooth loading animation
+
+
+#  Future Improvements
+
+Planned upgrades include:
+
+- Natural language symptom input
+- Chatbot-style interaction
+- Severity detection
+- PDF health report generation
+- Multilingual support
+- Doctor recommendation system
+- Voice input support
 
 ---
 
-# Disclaimer
+#  Disclaimer
 
 This project is developed for:
-- educational purposes
-- machine learning practice
-- healthcare AI experimentation
+
+- Educational purposes
+- Machine learning practice
+- Healthcare AI experimentation
 
 It is **not intended for real medical diagnosis** or professional healthcare advice.
 
@@ -125,19 +148,10 @@ Always consult a licensed medical professional for medical concerns.
 
 ---
 
-Future Improvements--->>>
+# Author
 
-Planned upgrades include:
-- natural language symptom input
-- chatbot-style interaction
-- severity detection
-- PDF health report generation
-- multilingual support
-- doctor recommendation system
-- voice input support
+## **DEEPENDRA SISODIA, MCA**
 
----
 
-#  --- Author ---
 
-***DEEPENDRA SISODIA, MCA***
+
