@@ -14,10 +14,15 @@ precaution_dict = joblib.load("precaution.pkl")
 # PAGE CONFIG
 
 st.set_page_config(
-    page_title="AI Health Assistant",
+    page_title="AI Health Assistant", 
     page_icon="🩺",
     layout="wide"
 )
+st.markdown("""
+### AI-powered disease prediction using Machine Learning
+
+Developed by **Deependra Sisodia (MCA)**
+""")
 
 # MODERN LIGHT UI STYLE
 
